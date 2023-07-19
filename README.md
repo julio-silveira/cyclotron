@@ -66,6 +66,5 @@ Accelerating a neutron:
 
 [1, 1, 1, 1]
 
-The algorithm must work for cases of matrices of 4x4, ..., NxN.
-The evaluation will consider good practices in data structure, functions, and algorithm efficiency.
+- The algorithm must work for cases of matrices of 4x4, ..., NxN.
 
