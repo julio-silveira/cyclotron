@@ -11,15 +11,22 @@ Input
 ### Cyclotron without particles:
 
 [1, 1, 1, 1]
+
 [1, 1, 1, 1]
+
 [1, 1, 1, 1]
+
 [1, 1, 1, 1]
+
 
 ### Accelerating an electron: 
 
 [e, e, e, e]
+
 [1, 1, 1, e]
+
 [1, 1, 1, e]
+
 [1, 1, 1, e]
 
 ### Accelerating a proton:
@@ -27,6 +34,38 @@ Input
 Case: 4x4
 
 [p, p, p, p]
+
 [p, 1, 1, p]
+
 [p, 1, p, p]
+
 [p, p, p, 1]
+
+Case: 6x6
+
+[ p, p, p, p, p, p ]
+
+[ p, 1, 1, 1, 1, p ]
+
+[ p, 1, 1, 1, 1, p ]
+
+[ p, 1, 1, 1, 1, p ]
+
+[ p, 1, 1, 1, p, p ]
+
+[ p, p, p, p, p, 1 ]
+
+
+Accelerating a neutron:
+
+[n, n, n, n]
+
+[1, 1, 1, 1]
+
+[1, 1, 1, 1]
+
+[1, 1, 1, 1]
+
+The algorithm must work for cases of matrices of 4x4, ..., NxN.
+The evaluation will consider good practices in data structure, functions, and algorithm efficiency.
+
