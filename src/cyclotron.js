@@ -4,12 +4,12 @@ function cyclotronWithoutParticles(matrix_size) {
   }
 }
 
-function accelerateElectron(matrix) {
-  for (let i = 0; i < matrix; i++) {
+function accelerateElectron(matrix_size) {
+  for (let i = 0; i < matrix_size; i++) {
     if (i === 0) {
-      console.log(Array(matrix).fill('e'));
+      console.log(Array(matrix_size).fill('e'));
     } else {
-      console.log(Array(matrix - 1).fill('1').concat('e'));
+      console.log(Array(matrix_size - 1).fill('1').concat('e'));
     }
   }
 }
